@@ -1,0 +1,70 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+.box {
+    width: 100vw;
+    height: 100vh;
+    background: url("./bg.png");
+    background-size: cover;
+    font-family: "Roboto", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.login {
+  width: 360px;
+  padding: 8% 0 0;
+  margin: auto;
+}
+.form {
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.form input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  margin-top: 3rem;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 1.5rem;
+}
+.form button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #ce4ab4 ;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 1.5rem;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+  margin-top: 3rem;
+  transition: background ease-in .3s;
+}
+.form button:hover,.form button:active,.form button:focus {
+  background: #55117f;
+}
+
+.span {
+    font-size: 3rem;
+    margin-bottom: 3rem;
+    /* padding: 3rem; */
+}
+
+.errors {
+    font-size: 1.5rem;
+    transition: background ease-in .3s;
+    background: #F33E1A;
+}
